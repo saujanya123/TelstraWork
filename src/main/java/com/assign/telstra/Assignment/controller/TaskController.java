@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 
-import com.assign.telstra.Assignment.CommonUtils.CommonValidation;
 import com.assign.telstra.Assignment.bean.ErrorDetails;
 import com.assign.telstra.Assignment.bean.FabResponse;
 import com.assign.telstra.Assignment.bean.NameTriangleType;
 import com.assign.telstra.Assignment.bean.ReqList;
 import com.assign.telstra.Assignment.bean.SortedListRes;
+import com.assign.telstra.Assignment.commonUtils.CommonValidation;
 import com.assign.telstra.Assignment.constant.ValidationConstant;
 import com.assign.telstra.Assignment.exception.AssignmentServiceException;
 import com.assign.telstra.Assignment.service.AssignmentServiceImpl;
