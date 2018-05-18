@@ -1,4 +1,4 @@
-package com.assign.telstra.Assignment.CommonUtils;
+package com.assign.telstra.Assignment.commonUtils;
 
 public class CommonValidation {
 	public static boolean isNullOrEmpty(String name)
